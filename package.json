@@ -14,10 +14,15 @@
   },
   "keywords": [
     "viper",
-    "viper-cli"
+    "viper-cli",
+    "cli"
   ],
   "author": "huynhit24",
   "license": "MIT",
+  "type": "module",
+  "bin": {
+    "viper": "./src/index.js"
+  },
   "bugs": {
     "url": "https://github.com/huynhit24/viper-cli/issues"
   },
@@ -27,7 +32,8 @@
     "commander": "^9.5.0",
     "degit": "^2.8.4",
     "inquirer": "^9.1.4",
-    "lodash.kebabcase": "^4.1.1"
+    "lodash.kebabcase": "^4.1.1",
+    "node-fetch": "^3.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

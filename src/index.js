@@ -1,15 +1,15 @@
 #! /usr/bin/env node
 
-const { program } = require("commander");
-const inquirer = require("inquirer");
-const path = require("path");
-const fs = require("fs");
-const degit = require("degit");
-const kebabCase = require("lodash.kebabcase");
-const execSync = require("child_process").execSync;
-const templates = require("./templates");
-const frameworks = require("./frameworks");
-const { templateNotes, frameworkNotes } = require("./notes");
+import { program } from 'commander';
+import inquirer from 'inquirer';
+import path from 'path';
+import fs from 'fs';
+import degit from 'degit';
+import kebabCase from 'lodash.kebabcase';
+import { execSync } from 'child_process';
+import templates from './templates.js';
+import frameworks from './frameworks.js';
+import { templateNotes, frameworkNotes } from './notes.js';
 
 program.option("-t, --template <template>", "Specify the template");
 program.option("--with-yarn", "Use yarn to install packages");

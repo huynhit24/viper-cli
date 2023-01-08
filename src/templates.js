@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+import fs from 'fs';
+import path from 'path';
 
 const updateFiles = (directory, files) => {
   files.remove.forEach((file) => {
@@ -149,6 +149,6 @@ const templates = {
       "vitest-svelte-ts",
     ],
   },
-};
+}
 
-module.exports = templates;
+export default templates;
