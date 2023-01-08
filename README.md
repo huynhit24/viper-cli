@@ -2,6 +2,9 @@
 
 Vite-based CLI to create your project easily and fastest.
 
+![image](https://user-images.githubusercontent.com/66912536/211194573-ab6520b4-e89e-4698-802f-0d9902a251bd.png)
+
+
 ## Feature
 
 - ⚛️ Support React, Vue, Svelte
