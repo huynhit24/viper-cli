@@ -1,0 +1,31 @@
+{
+  "name": "viper-cli",
+  "version": "1.0.0",
+  "description": "Vite-based CLI to create your project easily and fastest",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhit24/viper-cli.git"
+  },
+  "keywords": [
+    "viper",
+    "viper-cli"
+  ],
+  "author": "huynhit24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huynhit24/viper-cli/issues"
+  },
+  "homepage": "https://github.com/huynhit24/viper-cli#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^9.5.0",
+    "degit": "^2.8.4",
+    "inquirer": "^9.1.4",
+    "lodash.kebabcase": "^4.1.1"
+  }
+}
