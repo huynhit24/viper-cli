@@ -1,5 +1,5 @@
 {
-  "name": "viper-cli",
+  "name": "viper-cli-pro",
   "version": "1.0.0",
   "description": "Vite-based CLI to create your project easily and fastest",
   "main": "./src/index.js",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "viper",
-    "viper-cli",
+    "viper-cli-pro",
     "cli"
   ],
   "author": "huynhit24",

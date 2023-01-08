@@ -1,4 +1,4 @@
-# viper-cli
+# viper-cli-pro
 
 Vite-based CLI to create your project easily and fastest.
 
