@@ -1,6 +1,6 @@
 {
   "name": "viper-cli-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite-based CLI to create your project easily and fastest",
   "main": "./src/index.js",
   "scripts": {
