@@ -1,5 +1,8 @@
 # viper-cli-pro
 
+[![Version](https://img.shields.io/npm/v/viper-cli-pro?style=flat&color=success)](https://www.npmjs.com/package/viper-cli-pro)
+[![Downloads](https://img.shields.io/npm/dt/viper-cli-pro.svg?style=flat&color=success)](https://www.npmjs.com/package/viper-cli-pro)
+
 Vite-based CLI to create your project easily and fastest.
 
 ![image](https://user-images.githubusercontent.com/66912536/211194573-ab6520b4-e89e-4698-802f-0d9902a251bd.png)
